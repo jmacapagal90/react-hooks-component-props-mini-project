@@ -9,7 +9,7 @@ function Article({
     
     console.log(title,date,preview,minutes)
     return (
-    <>
+    <article>
     <h3>
         {title}
     </h3>
@@ -23,7 +23,7 @@ function Article({
         {minutes} minute read
 
     </p>
-    </>
+    </article>
     )
 }
 
