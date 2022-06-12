@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <Header name={blogData.name}/>
-      <About props={blogData.about}/>
+      <About image={blogData.image} about={blogData.about}/>
     </div>
   );
 }
